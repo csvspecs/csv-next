@@ -23,7 +23,7 @@ madrid,    R. Madrid|Real Madrid|Real Madrid CF|Real Madrid Club de Fútbol,  RM
 - No blank lines
 - No multi-line records
 - No data types (or text patterns or field tags / markers e.g. km2 or % or ° or similar)
-- No unordered fields (that is, fields depend on position) or variable fields per record
+- No unordered fields (that is, fields depend on position) or variable number of fields per record
 
 
 ## Extras

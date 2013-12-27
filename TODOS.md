@@ -1,3 +1,4 @@
 
-[ ] add gravatar logo for github org
+[x] add gravatar logo for github org
+
 
