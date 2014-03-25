@@ -24,9 +24,27 @@ madrid,    R. Madrid|Real Madrid|Real Madrid CF|Real Madrid Club de Fútbol,  RM
 - No multi-line records
 - No data types (or text patterns or field tags / markers e.g. km2 or % or ° or similar)
 - No unordered fields (that is, fields depend on position) or variable number of fields per record
+- No groups
 
 
 ## Extras
+
+- [Comments][COMMENTS.md]
+- [Magic][MAGIC.md]
+    - [Types][TYPES.md]
+        - [Names][NAMES.md]    -- Brussel • Bruxelles   [de]
+        - [Numbers][NUMBERS.md]  -- 12.3m, 13.4k
+        - [Units][UNITS.md]  -- km2, hl, %, etc.
+        - [Properties n Attributes][PROPS.md]  -- city:barcelona, wikipedia:Barcelona
+        - [Keys][KEYS.md]  -- first field
+        - [Tags][TAGS.md]  -- last field
+    - [Files n Folders][FILES.md]
+    - [Groups n Headers][GROUPS.md]
+
+-- add page/entry for multi line style  -- e.g. use MULTI.md? or RECORDS.md?
+-- add spaces, commas n quotes page (incl. escape, tab rules ..) ??  -- e.g. SPACE.md ?
+-- add COMMENTS_ALT.md  -- e.g. move alternative (not-supported) styles/ideas
+
 
 
 ### Comments
