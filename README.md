@@ -248,9 +248,9 @@ github: [hjson](https://github.com/hjson)
 
 - Commas Optional
 - Add comments, hash-style (#), line-style (//) and block-style (/* */)
-- Keys without quotes
-- Strings without quotes
-- Multi-line strings Python-style e.g. ''' text '''
+- Allow Keys without quotes
+- Allow Strings without quotes
+- Allow Multi-line strings Python-style e.g. ''' text '''
 
 ```
 {
