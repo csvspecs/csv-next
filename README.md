@@ -241,6 +241,44 @@ JSON for "Humans" (not Machines). Adds:
 }
 ```
 
+#### HJSON - A "Human" User Interface for JSON
+
+web: [hjson.org](http://hjson.org),
+github: [hjson](https://github.com/hjson)
+
+- Commas Optional
+- Add comments, hash-style (#), line-style (//) and block-style (/* */)
+- Keys without quotes
+- Strings without quotes
+- Multi-line strings Python-style e.g. ''' text '''
+
+```
+{
+  // use #, // or /**/ comments,
+  // omit quotes for keys
+  key: 1
+  // omit quotes for strings
+  contains: everything on this line
+  // omit commas at the end of a line
+  cool: {
+    foo: 1
+    bar: 2
+  }
+  // allow trailing commas
+  list: [
+    1,
+    2,
+  ]
+  // and use multiline strings
+  realist:
+    '''
+    My half empty glass,
+    I will fill your empty half.
+    Now you are half full.
+    '''
+}
+```
+
 
 ### YAML
 
