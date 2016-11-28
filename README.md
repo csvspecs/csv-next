@@ -279,6 +279,32 @@ github: [hjson](https://github.com/hjson)
 }
 ```
 
+#### SON - Simple Object Notation
+
+github: [aleksandergurin/simple-object-notation](https://github.com/aleksandergurin/simple-object-notation)
+
+Adds:
+
+- comments starts with # sign and ends with newline (\n)
+- comma after a key-value pair is optional
+- comma after an array element is optional
+
+```
+{
+  # Personal information
+    
+  "name": "Alexander Grothendieck"
+  "fields": "mathematics"
+  "main_topics": [
+    "Etale cohomology"
+    "Motives"
+    "Topos theory"
+    "Schemes"
+  ]
+}
+```
+
+
 
 ### YAML
 
